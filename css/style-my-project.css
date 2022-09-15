@@ -1,0 +1,168 @@
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+nav {
+  background-color: white;
+  box-shadow: 0 0 5px rgb(150, 150, 150);
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  color: black;
+  margin-left: 25px;
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background-color: #fe4e30;
+}
+
+.nav-right a:hover {
+  background-color: #ffab9d;
+}
+
+nav ul li:hover {
+  color: grey;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: 40px auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.field {
+  margin: 0 auto;
+}
+
+.kalender {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kalender .input-date1 {
+  width: 95%;
+}
+
+.kalender .input-date2 {
+  width: 100%;
+}
+
+:not(.checkbox) {
+}
+
+.field div .input-project,
+.input-date1,
+.input-date2,
+.upload-file,
+select,
+textarea {
+  border: 5px rgb(211, 211, 211);
+  border-radius: 5px;
+  box-shadow: 0 0 7px 1px rgb(211, 211, 211);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+button {
+  color: #f8f9fa;
+  background-color: #fe4e30;
+  border: 1px;
+  float: right;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ffab9d;
+}
+
+.background {
+  background-color: white;
+}
+
+.content {
+  margin: 40px 40px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+}
+
+.content a {
+  font-size: smaller;
+  background-color: #fe4e30;
+  padding: 2px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.content a:hover{
+  background-color: #ffab9d;
+}
+
+.card {
+  box-shadow: 0 0 7px 1px rgb(211, 211, 211);
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  box-sizing: border-box;
+  box-shadow: 0 0 7px 1px rgb(211, 211, 211);
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card div {
+  width: 300px;
+  margin-bottom: 10px;
+}
